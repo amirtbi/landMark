@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .btn {
+    @apply rounded-full shadow-md text-white py-3 px-7;
+  }
+  .btn-strong-cyan {
+    @apply bg-light-blue;
+  }
+  .btn-light-blue {
+    @apply bg-strong-cyan;
+  }
+}
