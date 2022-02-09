@@ -4,12 +4,27 @@
 
 @layer base {
   .btn {
-    @apply rounded-full shadow-md text-white py-3 px-7;
+    @apply rounded-full py-3 px-7 text-white shadow-md;
   }
+
   .btn-strong-cyan {
     @apply bg-light-blue;
   }
+  .btn-strong-cyan:hover {
+    box-shadow: 0px 10px 15px -3px hsla(171, 66%, 44%, 0.3),
+      0px 4px 6px -2px hsla(171, 66%, 44%, 0.3);
+  }
   .btn-light-blue {
     @apply bg-strong-cyan;
+  }
+  .btn-light-blue:hover {
+    box-shadow: 0px 10px 15px -3px hsla(171, 66%, 44%, 0.3),
+      0px 4px 6px -2px hsla(171, 66%, 44%, 0.3);
+  }
+  .title-content {
+    @apply text-dark-gray-blue text-justify text-2xl font-bold;
+  }
+  .txt-content {
+    @apply text-gray-blue max-w-[500px] text-justify text-[20px] md:max-w-[500px];
   }
 }
