@@ -4,7 +4,7 @@
 
 @layer base {
   .btn {
-    @apply rounded-full py-3 px-7 text-white shadow-md;
+    @apply rounded-full py-3 px-7 text-white shadow-md transition-shadow;
   }
 
   .btn-strong-cyan {
@@ -22,9 +22,9 @@
       0px 4px 6px -2px hsla(171, 66%, 44%, 0.3);
   }
   .title-content {
-    @apply text-dark-gray-blue text-justify text-2xl font-bold;
+    @apply text-dark-gray-blue  font-bold;
   }
   .txt-content {
-    @apply text-gray-blue max-w-[500px] text-justify text-[20px] md:max-w-[500px];
+    @apply text-gray-blue    text-[20px];
   }
 }

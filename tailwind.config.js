@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        md:'868px'
+      },
       colors: {
         'strong-cyan': 'hsl(171, 66%, 44%)',
         'light-blue': 'hsl(233, 100%, 69%)',
